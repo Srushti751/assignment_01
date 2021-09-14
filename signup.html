@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="nav-bar">
+                <div class="logo"><a href="index.html">Insight</a></div>
+                <div class="nav-links" id="nav-links">
+
+                    <ul>
+                        <li><i class="fas fa-question-circle"></i><a href="index.html">How it works</a></li>
+                        <li><i class="fas fa-user"></i><a href="signup.html">Sign up</a></li>
+                        <li><i class="fas fa-lock"></i><a href="login.html">Login</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+     
+        <section class="signup">
+            <div class="sign_container">
+                <form action="" method="">
+
+                    <table>
+                        <h2>Registraion Form</h2>
+                        <tr>
+                            <td>Fname:</td>
+                            <td><input type="text" name="fname" placeholder="Enter name" required pattern="[A-Za-z ]+"></td>
+                        </tr>
+                        <tr>
+                            <td>Lname:</td>
+                            <td><input type="text" name="lname" placeholder="Enter last name" required pattern="[A-Za-z ]+"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="mail" placeholder="Enter email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password" placeholder="Enter new password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Country:</td>
+                            <td><select name="Country" value="country" id="">
+                                    <option value="India">India</option>
+                                    <option value="India">USA</option>
+                                    <option value="India">Afghanistan</option>
+                            </select>
+                        </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Register">
+                            <input type="reset" value="Reset"></td>
+                        </tr>
+                    </table>            
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+                <div class="container">
+                    <div class="foot_row">
+                        <div class="foot_col">
+                            <h4>MAIN</h4>
+                            <ul>
+                                <li><a href="#">Start Here</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Meet Us</a></li>
+                                <li><a href="#">Blog </a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="foot_col">
+                            <h4>COMPANY</h4>
+                            <ul>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Start Here</a></li>
+                                <li><a href="#">Start Here</a></li>
+                            </ul>
+                        </div>
+                        <div class="foot_col">
+                            <h4>ONE MORE</h4>
+                            <ul>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Start Here</a></li>
+                                <li><a href="#">Start Here</a></li>
+                            </ul>
+                        </div>
+                        <div class="foot_col">
+                            <h4>LAST ONE</h4>
+                            <ul>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Start Here</a></li>
+                                <li><a href="#">Start Here</a></li>
+                            </ul>
+                        </div>
+                        <div class="foot_col">
+                            <h4>Follow Us</h4>
+                            <div class="social_media">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Copyrights@2021. Author</p>
+                </div>
+        </footer>
+        
+    </main>
+</body>
+</html>
